@@ -18,7 +18,7 @@ pika.setheading(0)
 
 for i in range(10):
   
-  for i in range(10):
+  for i in range(10):          
     random_color = random.choice(color_list)
     pika.dot(15, random_color)
     pika.penup()
